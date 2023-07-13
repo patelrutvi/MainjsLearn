@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <form  method="post" action="#" id="subhandel" onsubmit=" return heandelsub()">
+    
+        <label for="Basic">Basic deductions u/s 80C</label>
+        <input type="text" name="Basic" id="Basic" placeholder="0"> 
+        <br><br>
+        <label for="Basic">Contribution to NPS u/s 80CCD(1B)</label>
+        <input type="text" name="Basic" id="Basic"  placeholder="0">
+        <br><br>
+
+        <label for="Basic">Medical Insurance Premium u/s 80D</label>
+        <input type="text" name="Basic" id="Basic"  placeholder="0">
+
+        <br><br>
+        <label for="Basic">Donation to charity u/s 80G</label>
+        <input type="text" name="Basic" id="Basic"  placeholder="0">
+
+        <br><br>
+
+        <label for="Basic">Interest on Educational Loan u/s 80E</label>
+        <input type="text" name="Basic" id="Basic"  placeholder="0">
+
+        <br><br>
+
+        <label for="Basic">Interest on deposits in saving account u/s 80TTA/TTB</label>
+        <input type="text" name="Basic" id="Basic"  placeholder="0">
+
+        <br><br><br>
+
+        <input type="text" name="salary" id="salary">
+        <p>0 - 300000:0  <span id="t1"></span></p>
+        <p>300000 - 500000:  <span id="t2"></span></p>
+        <p>500000 - 750000:  <span id="t3"></span></p>
+        <p> 750000 - 1000000:  <span id="t4"></span></p>
+        <p>1000000 - 1250000:  <span id="t5"></span></p>
+        <p>1250000 - 1500000:  <span id="t6"></span></p>
+        <p>>1500000  <span id="t7"></span></p>
+
+     
+
+        <input type="submit" onclick="handleclick()">
+
+    </form>
+
+    <script src="./js/incomtaxs.js"></script>
+</body>
+</html>
