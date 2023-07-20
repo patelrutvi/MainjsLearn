@@ -1,4 +1,4 @@
-let val = document.getElementById("todo");
+    let val = document.getElementById("todo");
 
 let arr = []
 let update = false, editin = null;

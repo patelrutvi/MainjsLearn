@@ -3,7 +3,7 @@
 
 // console.log(X); // 20
 
-// var x;
+// // var x;
 // console.log(x); // undefined
 
 //  var x = 10;
@@ -69,7 +69,7 @@
 
 
 
-
+8
 
 // var
 

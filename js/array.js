@@ -39,8 +39,17 @@ let rollNo = [22, 34, 56, 7, 21]
 
 
 let data1 = ["rutvi", 41, "patel", 8.86]
+// const checkfind = (data) => {
+//     return data > 20
+    
+// }
+// checkfind(data1)
+ 
+// const anscheck = () => {
+//     document.getElementById("ans").innerHTML = data1.find(checkfind);
+// }
+// anscheck() //41
 
-// data1.find()
 
 // data1.shift()
 // console.log(data1); //remove first element
@@ -64,9 +73,11 @@ let data1 = ["rutvi", 41, "patel", 8.86]
 
 // data.push(99) // add last element
 
-// data.pop() //remove last element
+// data1.pop() //remove last element
 
-// console.log(Array.isArray(data));  cheack value array or not
+let data =["rutvi", 41 ,"patel",8.86]
+
+// console.log(Array.isArray(data)); // cheack value array or not
 
 // console.log(typeof data);
 

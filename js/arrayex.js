@@ -108,12 +108,13 @@
 
 
 //rotate last 2 digit using slice and concate
-// let arr = [33, 65, 4, 76, 12]
-// const f = arr.slice(0,3)
-// const l = arr.slice(3)
-
-// let ans = l.concat(f)
-// console.log(ans);
+let arr = [33, 65, 4, 76, 12]
+const f = arr.slice(0,3)
+const l = arr.slice(3)
+console.log(f);
+console.log(l);
+let ans = l.concat(f)
+console.log(ans);
 
 
 
@@ -137,15 +138,15 @@
 // replaceele(arr , 76 , 88)
 
 
-let arr = [33, 98, 2, 6, 89]
+// let arr = [33, 98, 2, 6, 89]
 
-const maxsum = (arr) => {
-    let ans = arr.sort((a, b) => b - a)
-        .slice(0, 3)
-        .reduce((acc, v) => acc + v, 0);
-    console.log(ans);
-}
-maxsum(arr)
+// const maxsum = (arr) => {
+//     let ans = arr.sort((a, b) => b - a)
+//         .slice(0, 3)
+//         .reduce((acc, v) => acc + v, 0);
+//     console.log(ans);
+// }
+// maxsum(arr)
 
 
 

@@ -4,7 +4,7 @@
 // let arr1 = [43,56,76,23,56];
 // let arr2 = [99,100];
 
-// let ans = [...arr1 , ...arr2]
+// let anss = [...arr1 , ...arr2]
 
 // let ans = [101,34,...arr1,777,...arr2,'ok']
 
