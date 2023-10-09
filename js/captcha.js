@@ -10,13 +10,13 @@ let orians = n1 + n2
 
 function game() {
 
-    let user = parseInt( document.getElementById("ans").value);
+    let user = parseInt(document.getElementById("ans").value);
     // console.log("sdgf")
-    if(orians === user){
+    if (orians === user) {
         alert("ans is correct");
         window.location.reload();
-    }else{
-        alert("ans is not correct" + "ans is" + orians );
+    } else {
+        alert("ans is not correct" + "  " + " Correct ans is" + orians);
         window.location.reload();
     }
 }
